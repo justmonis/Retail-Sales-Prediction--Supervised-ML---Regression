@@ -8,7 +8,7 @@ Problem Statement:
 <br>
 Rossmann operates more than 3,000 drug stores across 7 European countries. Currently, Rossmann's store managers face the challenge of accurately predicting daily sales up to six weeks in advance. Sales at each store are influenced by various factors such as promotions, competition, holidays, seasonal trends, and location specifics. Due to the diverse circumstances of individual managers, the accuracy of these sales predictions varies significantly. You're given historical sales data for 1,115 Rossmann stores, with some stores undergoing temporary closure for refurbishment. Your task is to forecast the 'Sales' column for the test set.<br>
 <br>
-Project Summary:
+<h3 Project Summary: </h3>
 The Rossman Sales Prediction project involved comprehensive data analysis, feature engineering, and model selection to achieve precise sales forecasts. Here's an overview of the project's key steps and findings:<br>
 <br>
 1. Data Collection and Cleaning:
