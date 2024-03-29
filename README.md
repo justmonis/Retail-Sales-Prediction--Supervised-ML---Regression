@@ -1,6 +1,6 @@
 <h1 align="center">Retail Sales Prediction-Supervised-ML-Regression</h1>
 
-![Local GIF](DT_G82_Hotel-Service-Animated-GIF-Icon-pack-1.gif)
+![Local GIF](img.jpg)
 
 <h3 align="Left">
    
