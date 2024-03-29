@@ -19,18 +19,18 @@ The Rossman Sales Prediction project involved comprehensive data analysis, featu
 - Conducted thorough EDA to extract insights through univariate, bivariate, and multivariate analysis.
 - Utilized visualizations to identify patterns and trends, providing valuable insights for decision-making.<br>
 <br>
-3. Feature Engineering and Preprocessing:
+3. Feature Engineering and Preprocessing: <br>
 - Engineered new features like PromoDuration and Competition Distance to capture crucial information.
 - Managed multicollinearity using VIF analysis and addressed outliers through the IQR technique.
 - Applied One-Hot Encoding to categorical variables and employed transformation techniques for data normalization.
 <br>
-4. Model Selection and Training:
+4. Model Selection and Training: <br>
 - Split the preprocessed data into training and testing sets to assess model performance.
-- Employed various machine learning algorithms, including linear regression, decision trees, and random forest, for sales prediction.
+- Employed various machine learning algorithms, including linear regression, decision trees, and random forest, for sales prediction. <br>
 - Evaluated model performance using metrics such as R-squared score, mean square error, and root mean square error.
 - Utilized regularization techniques like Lasso, Ridge, and Elastic Net to enhance model performance.
 <br>
-5. Conclusion:
+5. Conclusion:<br>
 - After experimentation, the XGBoost model emerged as the top performer, achieving an R2 score of approximately 98% on the training data and maintaining 97% on the test dataset.
 - The model exhibited lower MSE and RMSE values compared to other models, indicating superior predictive accuracy.
 - Consistent performance across multiple evaluation metrics demonstrates robust generalization.
