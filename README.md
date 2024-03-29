@@ -1,34 +1,39 @@
-<h1 align="center">Retail Sales Prediction-Supervised-ML-Regression</h1>
+<h1 align="left">Retail Sales Prediction-Supervised-ML-Regression</h1>
 
 ![Local GIF](img.jpg)
 
 <h3 align="Left">
-   
 Problem Statement:
-Ever contemplated the best time to book a hotel room or the optimal stay length for the best rates? What if you could predict if a hotel might receive an unusual number of special requests? Dive into this hotel booking dataset! It includes booking details for city and resort hotels, devoid of personal identifiers. Explore to uncover booking dynamics.
+Rossmann operates more than 3,000 drug stores across 7 European countries. Currently, Rossmann's store managers face the challenge of accurately predicting daily sales up to six weeks in advance. Sales at each store are influenced by various factors such as promotions, competition, holidays, seasonal trends, and location specifics. Due to the diverse circumstances of individual managers, the accuracy of these sales predictions varies significantly. You're given historical sales data for 1,115 Rossmann stores, with some stores undergoing temporary closure for refurbishment. Your task is to forecast the 'Sales' column for the test set.
 
 Project Summary:
-The Hotel Bookings Analysis project delves into a real-world dataset spanning 2015 to 2017, focusing on hotel bookings from city and resort venues. The objective is to clean, analyze, manipulate, and visualize the data to extract insights into booking determinants. Here's a project outline:
+The Rossman Sales Prediction project involved comprehensive data analysis, feature engineering, and model selection to achieve precise sales forecasts. Here's an overview of the project's key steps and findings:
 
-1. Data Import and Cleaning:
-   - Import libraries and load the hotel booking CSV into a pandas DataFrame.
-   - Utilize libraries like NumPy, pandas, Matplotlib, and Seaborn for analysis and visualization.
+1. Data Collection and Cleaning:
+- Gathered historical sales data for Rossmann stores, including competitor, holiday, customer, and daily sales details.
+- Ensured data integrity by cleaning and preparing the dataset, handling missing values, and addressing outliers.
 
-2. Data Exploration:
-   - The dataset encompasses 119,390 rows and 32 columns with varied data types.
-   - 31,944 duplicate rows are identified and removed.
-   - Address null values, especially in columns like company, agent, children, and reserved_room_type.
+2. Exploratory Data Analysis (EDA):
+- Conducted thorough EDA to extract insights through univariate, bivariate, and multivariate analysis.
+- Utilized visualizations to identify patterns and trends, providing valuable insights for decision-making.
 
-3. Data Wrangling:
-   - Identify and remove outliers from columns like lead_time, ADR, and days_in_waiting_list.
-   - Create the total_stay column by combining stays_in_weekend_nights and stays_in_week_nights.
-   - Develop the total_guest column using adults, children, and babies.
+3. Feature Engineering and Preprocessing:
+- Engineered new features like PromoDuration and Competition Distance to capture crucial information.
+- Managed multicollinearity using VIF analysis and addressed outliers through the IQR technique.
+- Applied One-Hot Encoding to categorical variables and employed transformation techniques for data normalization.
 
-4. Data Visualization:
-   - Employ visualizations to comprehend relationships among variables.
-   - Conduct univariate, bivariate, and multivariate analyses using bar plots, count plots, and pie charts.
+4. Model Selection and Training:
+- Split the preprocessed data into training and testing sets to assess model performance.
+- Employed various machine learning algorithms, including linear regression, decision trees, and random forest, for sales prediction.
+- Evaluated model performance using metrics such as R-squared score, mean square error, and root mean square error.
+- Utilized regularization techniques like Lasso, Ridge, and Elastic Net to enhance model performance.
 
-5. Correlation Analysis:
-   - Conclude with a heatmap visualizing correlations among dataset variables.
+5. Conclusion:
+- After experimentation, the XGBoost model emerged as the top performer, achieving an R2 score of approximately 98% on the training data and maintaining 97% on the test dataset.
+- The model exhibited lower MSE and RMSE values compared to other models, indicating superior predictive accuracy.
+- Consistent performance across multiple evaluation metrics demonstrates robust generalization.
+- Residuals analysis confirmed the model's effectiveness in capturing underlying data patterns.
+  
+This project demonstrates the effective application of data analysis, feature engineering, and machine learning techniques to address real-world forecasting challenges in the retail industry, providing actionable insights for decision-making.  
 
-By following these steps, the Hotel Bookings Analysis project endeavors to unveil crucial insights into hotel booking trends, guest demographics, and influential factors in the hospitality sector.</h3>
+</h3>
