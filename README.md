@@ -3,20 +3,21 @@
 ![Local GIF](img.jpg)
 
 <h3 align="Left">
+<br>
 Problem Statement:
 <br>
-Rossmann operates more than 3,000 drug stores across 7 European countries. Currently, Rossmann's store managers face the challenge of accurately predicting daily sales up to six weeks in advance. Sales at each store are influenced by various factors such as promotions, competition, holidays, seasonal trends, and location specifics. Due to the diverse circumstances of individual managers, the accuracy of these sales predictions varies significantly. You're given historical sales data for 1,115 Rossmann stores, with some stores undergoing temporary closure for refurbishment. Your task is to forecast the 'Sales' column for the test set.
+Rossmann operates more than 3,000 drug stores across 7 European countries. Currently, Rossmann's store managers face the challenge of accurately predicting daily sales up to six weeks in advance. Sales at each store are influenced by various factors such as promotions, competition, holidays, seasonal trends, and location specifics. Due to the diverse circumstances of individual managers, the accuracy of these sales predictions varies significantly. You're given historical sales data for 1,115 Rossmann stores, with some stores undergoing temporary closure for refurbishment. Your task is to forecast the 'Sales' column for the test set.<br>
 <br>
 Project Summary:
-The Rossman Sales Prediction project involved comprehensive data analysis, feature engineering, and model selection to achieve precise sales forecasts. Here's an overview of the project's key steps and findings:
+The Rossman Sales Prediction project involved comprehensive data analysis, feature engineering, and model selection to achieve precise sales forecasts. Here's an overview of the project's key steps and findings:<br>
 <br>
 1. Data Collection and Cleaning:
 - Gathered historical sales data for Rossmann stores, including competitor, holiday, customer, and daily sales details.
-- Ensured data integrity by cleaning and preparing the dataset, handling missing values, and addressing outliers.
+- Ensured data integrity by cleaning and preparing the dataset, handling missing values, and addressing outliers.<br>
 <br>
 2. Exploratory Data Analysis (EDA):
 - Conducted thorough EDA to extract insights through univariate, bivariate, and multivariate analysis.
-- Utilized visualizations to identify patterns and trends, providing valuable insights for decision-making.
+- Utilized visualizations to identify patterns and trends, providing valuable insights for decision-making.<br>
 <br>
 3. Feature Engineering and Preprocessing:
 - Engineered new features like PromoDuration and Competition Distance to capture crucial information.
