@@ -24,17 +24,21 @@ The Rossman Sales Prediction project involved comprehensive data analysis, featu
 - Managed multicollinearity using VIF analysis and addressed outliers through the IQR technique.
 - Applied One-Hot Encoding to categorical variables and employed transformation techniques for data normalization.
 <br>
+  <br>
 4. Model Selection and Training: <br>
 - Split the preprocessed data into training and testing sets to assess model performance.
 - Employed various machine learning algorithms, including linear regression, decision trees, and random forest, for sales prediction. <br>
+  <br>
 - Evaluated model performance using metrics such as R-squared score, mean square error, and root mean square error.
 - Utilized regularization techniques like Lasso, Ridge, and Elastic Net to enhance model performance.
 <br>
+  <br>
 5. Conclusion:<br>
 - After experimentation, the XGBoost model emerged as the top performer, achieving an R2 score of approximately 98% on the training data and maintaining 97% on the test dataset.
 - The model exhibited lower MSE and RMSE values compared to other models, indicating superior predictive accuracy.
 - Consistent performance across multiple evaluation metrics demonstrates robust generalization.
 - Residuals analysis confirmed the model's effectiveness in capturing underlying data patterns.
+  <br>
   <br>
 This project demonstrates the effective application of data analysis, feature engineering, and machine learning techniques to address real-world forecasting challenges in the retail industry, providing actionable insights for decision-making.  
 
