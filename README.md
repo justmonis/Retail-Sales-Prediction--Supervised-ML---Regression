@@ -11,11 +11,11 @@ Rossmann operates more than 3,000 drug stores across 7 European countries. Curre
 <h3 Project Summary: </h3>
 The Rossman Sales Prediction project involved comprehensive data analysis, feature engineering, and model selection to achieve precise sales forecasts. Here's an overview of the project's key steps and findings:<br>
 <br>
-1. Data Collection and Cleaning:
+1. Data Collection and Cleaning:<br>
 - Gathered historical sales data for Rossmann stores, including competitor, holiday, customer, and daily sales details.
 - Ensured data integrity by cleaning and preparing the dataset, handling missing values, and addressing outliers.<br>
 <br>
-2. Exploratory Data Analysis (EDA):
+2. Exploratory Data Analysis (EDA):<br>
 - Conducted thorough EDA to extract insights through univariate, bivariate, and multivariate analysis.
 - Utilized visualizations to identify patterns and trends, providing valuable insights for decision-making.<br>
 <br>
